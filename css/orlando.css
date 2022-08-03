@@ -205,7 +205,7 @@ header #logotipo {
 }
 #news2 .thumbnail h3{
 	color: #5e299a;
-	font-size: 18px;
+	font-size: 15px;
 	font-family: "OpenSans";
 	font-weight: bold;
 }
@@ -213,6 +213,16 @@ header #logotipo {
 	color: #a7a7a7;
 	font-size: 18px;
 	font-family: "OpenSans";
+}
+#news .thumbnail .item-inner {
+	padding: 10px;
+}
+#news .thumbnail .item-inner img {
+	width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+    padding: 3px;
 }
 #stats{
 	background-color: #5e299a;

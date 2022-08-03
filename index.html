@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Orlando City</title>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/orlando.css">
     <script src="https://kit.fontawesome.com/ac959f2eb2.js" crossorigin="anonymous"></script>
 </head>
@@ -68,26 +70,48 @@
                 <h2>Latest News</h2>
                 <hr>
             </div> 
-            <div class="row thumbnail">
-                <div class="col-md-3">
-                    <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
-                    <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
-                    <time>December 21, 2022</time>
+            <div class="row thumbnail owl-carousel owl-theme">
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
-                    <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
-                    <time>December 21, 2022</time>
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
-                    <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
-                    <time>December 21, 2022</time>
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
-                    <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
-                    <time>December 21, 2022</time>
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-inner">                        
+                        <img src="img/noticia-thumb.jpg" alt="noticia noticia-thumb">
+                        <h3>Orlado City Acquires Goalkepper Joe Bendik From Toronto FC </h3>
+                        <time>December 21, 2022</time>
+                    </div>
                 </div>
             </div>
         </div>
@@ -222,6 +246,7 @@
         </div>
     </footer>
     <script src="lib/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -229,6 +254,13 @@
                 console.log("vc quebrou o meu ovo");
             })
         });
+        $(".thumbnail").owlCarousel({
+        nav: true,
+        navText: ["Anterior", "Próximo"],
+         //autoPlay: 3000,
+         items : 4
+    
+         });
     </script>
 
 </body>
