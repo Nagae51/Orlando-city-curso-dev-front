@@ -222,7 +222,7 @@ header #logotipo {
 }
 img, svg {
     vertical-align: middle;
-    padding: 3px;
+    padding: 12px;
 }
 #stats{
 	background-color: #5e299a;
