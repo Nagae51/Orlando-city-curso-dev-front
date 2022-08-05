@@ -50,7 +50,7 @@
                             <li class="nav-item schedule"><a href="#">Schedule</a></li>
                             <li class="nav-item search">
                                 <div class="input-group mb-3 search3">
-                                    <input type="search" class="form-control" placeholder="search...">
+                                    <input type="search" id="search" class="form-control" placeholder="search...">
                                     <button class="btn btn-outline-secondary type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
                                 </div>
                             </li>
@@ -250,20 +250,7 @@
     <script src="lib/jQuery/jquery-3.6.0.min.js"></script>
     <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#logotipo").on("mouseover", function(){
-                console.log("vc quebrou o meu ovo");
-            })
-        });
-        $(".thumbnail").owlCarousel({
-        //nav: true,
-        //navText: ["Anterior", "Próximo"],
-         //autoPlay: 3000,
-         items : 4
-    
-         });
-    </script>
+    <script src="js/efeitos.js"></script>
 
 </body>
 </html>
