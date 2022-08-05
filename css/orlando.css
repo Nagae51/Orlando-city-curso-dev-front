@@ -292,6 +292,9 @@ img, svg {
     margin: 0 auto;
     max-width: 400px;
 }
+section .videos{
+	margin-top: 180px;
+}
 
 footer {
 	margin-top: 110px;
@@ -401,4 +404,11 @@ footer .list-socials a {
 footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
+}
+#videoPlayer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 50px;
 }
