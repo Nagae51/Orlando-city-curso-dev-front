@@ -129,11 +129,19 @@ header #logotipo {
 	text-align: right;
 	position: absolute;
 	top: 76px;
-	margin-left: 640px;
+	margin-left: 500px;
 }
 .nave li a{
 	color: white;
 	font-size: 16px;
+}
+.home{
+	padding-left: 40px;
+	padding-top: 6px;
+}
+.video{
+	padding-left: 40px;
+	padding-top: 6px;
 }
 .ticket{
 	padding-left: 40px;
