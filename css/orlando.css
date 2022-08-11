@@ -129,11 +129,19 @@ header #logotipo {
 	text-align: right;
 	position: absolute;
 	top: 76px;
-	margin-left: 640px;
+	margin-left: 500px;
 }
 .nave li a{
 	color: white;
 	font-size: 16px;
+}
+.home{
+	padding-left: 40px;
+	padding-top: 6px;
+}
+.video{
+	padding-left: 40px;
+	padding-top: 6px;
 }
 .ticket{
 	padding-left: 40px;
@@ -205,7 +213,7 @@ header #logotipo {
 }
 #news2 .thumbnail h3{
 	color: #5e299a;
-	font-size: 18px;
+	font-size: 15px;
 	font-family: "OpenSans";
 	font-weight: bold;
 }
@@ -213,6 +221,16 @@ header #logotipo {
 	color: #a7a7a7;
 	font-size: 18px;
 	font-family: "OpenSans";
+}
+#news .thumbnail .item-inner {
+	padding: 10px;
+}
+#news .thumbnail .item-inner img {
+	width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+    padding: 12px;
 }
 #stats{
 	background-color: #5e299a;
@@ -273,6 +291,9 @@ header #logotipo {
 #call-to-action .row-max-400 {
     margin: 0 auto;
     max-width: 400px;
+}
+section .videos{
+	margin-top: 180px;
 }
 
 footer {
@@ -383,4 +404,11 @@ footer .list-socials a {
 footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
+}
+#videoPlayer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 50px;
 }
